@@ -1,0 +1,21 @@
+.wap-btn, button.wap-text { 
+    min-height: 45px;
+    margin: 5px;
+    &:hover {
+        opacity: 0.7;
+        cursor: pointer;
+    }
+}
+
+.wap-card {
+    margin: 5px;
+}
+
+.wap-img {
+    object-fit: cover;
+    margin: 5px;
+}
+
+.wap-gallery {
+    flex-wrap: wrap;
+}

@@ -1,0 +1,34 @@
+// Setup
+@import "setup/reset.scss";
+@import "setup/variables.scss";
+@import "setup/functions.scss";
+@import "setup/mixins.scss";
+@import "setup/typography.scss";
+
+//Basic
+@import "basics/helpers.scss";
+@import "basics/base.scss";
+@import "basics/layout.scss";
+
+// Components
+@import "components/app-header.scss";
+@import "components/app-home.scss";
+@import "components/app-footer.scss";
+@import "components/template.scss";
+@import "components/buttons.scss";
+@import "components/user_msg.scss";
+@import "components/publish.scss";
+@import "components/loader.scss";
+@import "components/editor/modal.scss";
+
+// Editor Components
+@import "components/editor/editor-side-bar.scss";
+@import "components/editor/editor-wap.scss";
+@import "components/editor/editor-wap-cmps/editor-wap-cmps";
+@import "components/editor/editor-wap-cmps/editor-wap-elements";
+@import "components/editor/editor-wap-cmps/editor-wap-video";
+@import "components/editor/editor-wap-cmps/_editor-wap-editor";
+
+body {
+   background-color: white;
+}
